@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test.zzj.com.uieventtest.views.GrandViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_touch_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <test.zzj.com.uieventtest.views.FatherViewGroup
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+        <test.zzj.com.uieventtest.views.LogImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/user_status_leave"/>
+
+
+    </test.zzj.com.uieventtest.views.FatherViewGroup>
+
+    <!--<ImageView android:layout_width="40dp"  android:layout_height="40dp" android:src="@drawable/user_status_leave"/>-->
+
+
+</test.zzj.com.uieventtest.views.GrandViewGroup>
